@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "951553570386",
+    "firebase_url": "https://tubyapp-223011.firebaseio.com",
+    "project_id": "tubyapp-223011",
+    "storage_bucket": "tubyapp-223011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951553570386:android:ece9f916a4372e3c",
+        "android_client_info": {
+          "package_name": "sa.com.stc.Tuby.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951553570386-rfro9k3r2jkq3juieb3kbakf87ifpmgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sa.com.stc.Tuby.dev",
+            "certificate_hash": "d66362d9b5921b679a80e521732af2981be2dc4c"
+          }
+        },
+        {
+          "client_id": "951553570386-j3egdhvd6rdh0q76e7liom0clbgb5mtn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_xzW6_5jEnZ8b0ZgnxRAIw-5_yVcDtgg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951553570386-j3egdhvd6rdh0q76e7liom0clbgb5mtn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "951553570386-75vsc2fbpfd8fedcbkeliatjv2skvr4p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.clickapps.tubyDemo"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
