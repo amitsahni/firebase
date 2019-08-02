@@ -6,8 +6,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import com.firebase.fcm.FCMBuilder;
-import com.firebase.fcm.callback.OnResultCallback;
 import com.firebase.fcm.observer.LocalFirebaseLiveData;
 import com.google.firebase.messaging.RemoteMessage;
 
@@ -22,21 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 .setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        new FCMBuilder(getApplicationContext())
-                                .subScribe("global_en")
-                                .listener(new OnResultCallback<Boolean>() {
-                                    @Override
-                                    public void onResult(Boolean aBoolean) {
-                                        new FCMBuilder(getApplicationContext())
-                                                .subScribed(key, new OnResultCallback<String>() {
-                                                    @Override
-                                                    public void onResult(String s) {
-                                                        Log.i(getLocalClassName(), "channels = " + s);
-                                                    }
-                                                });
-                                    }
-                                })
-                                .build();
+                        String[] topics = new String[]{"global_en"};
                         //startActivity(new Intent("android.settings.CAST_SETTINGS"));
                     }
                 });
